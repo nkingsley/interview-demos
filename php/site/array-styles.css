@@ -1,0 +1,26 @@
+.array-remove {
+  cursor: pointer;
+}
+
+.array-item .text-input {
+  width: 300px;
+}
+
+.icon-button {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.array-remove:after {
+  content: '\2718';
+}
+
+.array-default:after {
+  content: '\2606';
+}
+.array-default:hover:after,
+.array-default.is-default:after{
+  content: '\2605';
+}
